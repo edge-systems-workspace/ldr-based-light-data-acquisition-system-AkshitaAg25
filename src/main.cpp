@@ -1,9 +1,9 @@
 #include <Arduino.h>
 /**
- * @file main.ino
+ * @file main.cpp
  * @brief Embedded Light Intensity Monitoring using LDR
- * @author YOUR_NAME
- * @date YYYY-MM-DD
+ * @author AkshitaAg25
+ * @date 2026-02-19
  *
  * @details
  * Reads analog brightness data from LDR sensor
@@ -12,9 +12,10 @@
 
  // TODO 1:
  // Define LDR analog pin (Use A0)
-
+int ldrPin=A0;
  // TODO 2:
  // Create variable to store sensor reading
+int reading=0;
 
 void setup() {
 
